@@ -50,11 +50,17 @@ class BizCard extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Icon(Icons.person_outline,color: Colors.white,),
-              Text("T:amit@twitter.com", style: TextStyle(
-              fontSize: 18,
-              color: Colors.white,
-            ),),
+              Icon(
+                Icons.person_outline,
+                color: Colors.white,
+              ),
+              Text(
+                "T:amit@twitter.com",
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                ),
+              ),
             ],
           ),
         ],
