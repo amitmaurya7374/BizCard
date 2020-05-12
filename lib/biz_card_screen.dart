@@ -10,6 +10,7 @@ class BizCard extends StatelessWidget {
         alignment: Alignment.center,
         child: Stack(
           alignment: Alignment.center,
+          children: <Widget>[],
         ),
       ),
     );
